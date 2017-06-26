@@ -1,0 +1,1 @@
+/home/davos/Documents/bar-master/bar-xft-port/test.sh | /home/davos/Documents/bar-master/bar-xft-port/lemonbar -g 1200x30+360+20 -B#fff4de -F#000000 -p -f sans\ 8:lang=ja:pixelsize=12 -f sans\ 8:pixelsize=12 -f sans\ 8:pixelsize=15 -a 10 | sh
