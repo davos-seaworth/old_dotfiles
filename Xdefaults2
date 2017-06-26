@@ -1,0 +1,72 @@
+
+! fonts
+! Disabled for now because of issues with w3m and neofetch
+! and the default font doesn't look that bad
+!URxvt.font: xft:inconsolata:pixelsize=15:antialias=false
+!URxvt.boldFont: xft:inconsolata:pixelsize=15:antialias=false
+
+
+
+!Spacing between characters
+URxvt.letterSpace: 0
+
+
+
+! Spacing between lines
+URxvt.lineSpace: -1
+
+! Window size
+URxvt.geometry: 85x20
+
+! Disable scrollbar
+URxvt.scrollBar: false
+
+! Set urxvt as login shell | Probably don't need this
+URxvt.loginShell: true
+
+! Padding on the edges for those nice faux-borders
+URxvt.internalBorder: 5
+
+
+
+! TODO for colors, look for suitable secondary colors so that mounted NTFS file systems
+! are actually visible when ls is used, not that I typically access them outside of ranger
+! or nautilus anyway
+
+
+! Miscellaneous
+URxvt.foreground:   #99736e
+URxvt.background:   #fff4de
+URxvt.cursorColor:  #99736e
+
+! blacks
+URxvt.color0:       #232c33
+URxvt.color8:       #70838c
+
+! reds
+URxvt.color1:       #99736e
+URxvt.color9:       #99736e
+
+! greens
+URxvt.color2:       #709985
+URxvt.color10:      #709985
+
+! yellows
+URxvt.color3:       #aaaa88
+URxvt.color11:      #aaaa88
+
+! blues
+URxvt.color4:       #708599
+URxvt.color12:      #708599
+
+! magentas
+URxvt.color5:       #997070
+URxvt.color13:      #997070
+
+! cyans
+URxvt.color6:       #709999
+URxvt.color14:      #709999
+
+! whites
+URxvt.color7:       #99736e
+URxvt.color15:      #99736e

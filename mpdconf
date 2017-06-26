@@ -1,0 +1,33 @@
+
+
+music_directory	 "~/Music"	
+playlist_directory	"~/.mpd/playlists"	#"/var/lib/mpd/playlists"
+db_file		"~/.mpd/mpd.db"	#"/var/lib/mpd/tag_cache"
+log_file	"~/.mpd/mpd.log"	#	"/var/log/mpd/mpd.log"
+pid_file	"~/.mpd/mpd.pid"	#	"/run/mpd/pid"
+state_file	"~/.mpd/mpdstate"	#	"/var/lib/mpd/state"
+sticker_file                   "/var/lib/mpd/sticker.sql"
+
+
+
+user				"davos"
+
+
+
+input {
+        plugin "curl"
+}
+
+audio_output {
+	type		"pulse"
+	name		"prismriver2" 
+}
+filesystem_charset		"UTF-8"
+
+
+audio_output {
+type                    "fifo"
+name                    "FIFO"
+path                    "/tmp/mpd.fifo"
+format                  "44100:16:2"
+}
